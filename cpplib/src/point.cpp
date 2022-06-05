@@ -12,3 +12,10 @@ void Point::Print() {
 }
 
 }
+
+#include "point.h"
+
+CPoint CPointFromXY(int64_t x, int64_t y) {
+    cpplib::Point* pPtr = new cpplib::Point(cpplib::Point(x, y));
+    return pPtr;
+}
