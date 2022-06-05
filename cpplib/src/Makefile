@@ -3,9 +3,9 @@ SHELL = bash
 
 CC = clang
 CXX = clang++
-CFLAGS = -lm -mmacosx-version-min=10.9
-CXXFLAGS = -lm -std=c++2a -mmacosx-version-min=10.9
-LDFLAGS = -lm -lstdc++ -mmacosx-version-min=10.9
+CFLAGS = -mmacosx-version-min=10.9
+CXXFLAGS = -std=c++2a -mmacosx-version-min=10.9
+LDFLAGS = -lstdc++ -mmacosx-version-min=10.9
 
 .PHONY: default
 
