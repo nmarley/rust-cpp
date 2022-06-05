@@ -8,6 +8,8 @@ typedef void* CPoint;
 
 CPoint CPointFromXY(int64_t x, int64_t y);
 
+void CPointPrint(CPoint pPtr);
+
 #ifdef __cplusplus
 }
 #endif
