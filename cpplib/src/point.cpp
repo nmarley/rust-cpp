@@ -23,3 +23,7 @@ CPoint CPointFromXY(int64_t x, int64_t y) {
 void CPointPrint(CPoint pPtr) {
     ((cpplib::Point*)pPtr)->Print();
 }
+
+void CPointFree(CPoint pPtr) {
+    delete (cpplib::Point*)pPtr;
+}

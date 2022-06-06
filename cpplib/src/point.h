@@ -10,6 +10,8 @@ CPoint CPointFromXY(int64_t x, int64_t y);
 
 void CPointPrint(CPoint pPtr);
 
+void CPointFree(CPoint pPtr);
+
 #ifdef __cplusplus
 }
 #endif

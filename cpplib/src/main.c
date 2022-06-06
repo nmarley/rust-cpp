@@ -6,4 +6,7 @@ int main(void) {
 
     // debug
     CPointPrint(pPtr);
+
+    // free memory
+    CPointFree(pPtr);
 }
