@@ -5,6 +5,6 @@ Rust.
 
 ## TODO:
 
-- Move makefile to this dir (up one level)
-- Install target should build library and put in `lib/`, and header files
-  should be copied to `include/`.
+- Tidy the Makefile, use best practices for building and installing (e.g.
+  instead of `cd src/ && clang ...`, maybe there is a better way to split among
+  subdirs).
