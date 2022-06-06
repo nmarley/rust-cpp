@@ -2,9 +2,21 @@
 
 > Example of calling C++ from Rust
 
+Currently only tested on MacOS Catalina (10.15.7).
+
 ## Usage
 
-TODO
+1. Build cpplib:
+
+```sh
+(cd cpplib && make install)
+```
+
+2. Build Rust lib and run:
+
+```sh
+cargo run
+```
 
 ## Notes
 
